@@ -1,0 +1,33 @@
+<Bindings>
+	<Binding name="PATHWAY_NEXT" header="PATHWAY" category="ADDONS">Pathway:StartRoute("next")</Binding>
+	<Binding name="PATHWAY_SKIP" category="ADDONS">Pathway:SkipStop()</Binding>
+	<Binding name="PATHWAY_GUIDE" category="ADDONS">Pathway:ToggleGuide()</Binding>
+	<Binding name="PATHWAY_JOURNAL" category="ADDONS">Pathway:ToggleJournal()</Binding>
+	<Binding name="PATHWAY_FIND" category="ADDONS">Pathway_FindRepair()</Binding>
+	<Binding name="CLICK PathwayStepButton:LeftButton" category="ADDONS"/>
+	<Binding name="CLICK PathwayTargetButton:LeftButton" category="ADDONS"/>
+	<Binding name="CLICK PathwayTargetButton2:LeftButton" category="ADDONS"/>
+	<Binding name="CLICK PathwayTargetButton3:LeftButton" category="ADDONS"/>
+	<Binding name="CLICK PathwayTargetButton4:LeftButton" category="ADDONS"/>
+	<Binding name="CLICK PathwayItemButton:LeftButton" category="ADDONS"/>
+	<Binding name="CLICK PathwayItemButton2:LeftButton" category="ADDONS"/>
+	<Binding name="CLICK PathwayItemButton3:LeftButton" category="ADDONS"/>
+	<Binding name="GOODMAP_PEEK" header="GOODMAP" category="ADDONS" runOnUp="true">
+		GoodMap_Peek(keystate)
+	</Binding>
+	<Binding name="GOODMAP_FARM" category="ADDONS">
+		GoodMap_ToggleFarm()
+	</Binding>
+	<Binding name="GOODMAP_STOP" category="ADDONS">
+		GoodMap_StopRoute()
+	</Binding>
+	<Binding name="GOODMAP_MARK" category="ADDONS" runOnUp="true">
+		GoodMap_MarkKey(keystate)
+	</Binding>
+	<Binding name="FISHINGBLINKER_TOGGLE" header="FISHINGBLINKER" category="ADDONS">
+		FishingBlinker_Toggle()
+	</Binding>
+	<Binding name="FISHINGBLINKER_WINDOW" category="ADDONS">
+		FishingBlinker_ToggleWindow()
+	</Binding>
+</Bindings>

@@ -1,0 +1,91 @@
+## Interface: 16001
+## Title: |cff35d17fPath|rway
+## Notes: All-in-one for WoW: Forever: the closest quests one click from your map, a quest journal with zone and chain guides, arrow and minimap paths, a step guide, smart bags with a Loot Inbox, your zone map as your minimap, cinematic fishing and gear upgrade prompts.
+## Author: SoFinSicc
+## Version: 1.4.3
+## License: GPL-3.0-or-later
+## IconTexture: Interface\AddOns\Pathway\Media\Icon
+## Category: Quests
+## AddonCompartmentFunc: Pathway_OnCompartment
+## AddonCompartmentFuncOnEnter: Pathway_OnCompartmentEnter
+## AddonCompartmentFuncOnLeave: Pathway_OnCompartmentLeave
+## SavedVariables: PathwayDB, PathwayBagsDB, PathwayMapDB, PathwayFishDB
+## SavedVariablesPerCharacter: PathwayCharDB, PathwayBagsCharDB
+## OptionalDeps: Blizzard_BattlefieldMap, HandyNotes, TomTom, GatherMate2, HappyCamper
+
+Data.lua
+Pathway.lua
+Hints\Hints.lua
+WoWPro\Forever\Alliance\01_12_Dun_Morogh.lua
+WoWPro\Forever\Alliance\01_12_Elwynn.lua
+WoWPro\Forever\Alliance\01_12_Teldrassil.lua
+WoWPro\Forever\Alliance\01_12_Zephras_Isle_A.lua
+WoWPro\Forever\Alliance\12_16_WestfallPt1.lua
+WoWPro\Forever\Alliance\12_20_Darkshore.lua
+WoWPro\Forever\Alliance\12_20_Eastern_Kingdom.lua
+WoWPro\Forever\Alliance\14_24_Dungeon_Deadmines.lua
+WoWPro\Forever\Alliance\15_20_Dungeon_Ruins_of_Lordaeron.lua
+WoWPro\Forever\Alliance\15_24_Dungeon_Wailing_Caverns.lua
+WoWPro\Forever\Alliance\19_25_Alliance.lua
+WoWPro\Forever\Alliance\21_30_Dungeon_Blackfathom.lua
+WoWPro\Forever\Alliance\22_30_Dungeon_The_Stockade.lua
+WoWPro\Forever\Alliance\25_30_Alliance.lua
+WoWPro\Forever\Alliance\25_34_Dungeon_Razorfen_Kraul.lua
+WoWPro\Forever\Alliance\25_38_Dungeon_Gnomeregan.lua
+WoWPro\Forever\Alliance\26_45_Dungeon_Scarlet_Monastery.lua
+WoWPro\Forever\Alliance\30_41_Alliance.lua
+WoWPro\Forever\Alliance\35_44_Dungeon_Razorfen Downs.lua
+WoWPro\Forever\Alliance\41_42_Dungeon_Uldaman.lua
+WoWPro\Forever\Alliance\42_50_Alliance.lua
+WoWPro\Forever\Alliance\46_54_Dungeon_Sunken Temple.lua
+WoWPro\Forever\Alliance\49_50_Dungeon_Zul_Farrak.lua
+WoWPro\Forever\Alliance\50_51_Dungeon_Maraudon.lua
+WoWPro\Forever\Alliance\50_55_Alliance.lua
+WoWPro\Forever\Alliance\52_60_Dungeon_Dire_Maul_East.lua
+WoWPro\Forever\Alliance\53_60_Dungeon_Blackrock_Depths.lua
+WoWPro\Forever\Alliance\54_60_Dungeon_Dire_Maul_North.lua
+WoWPro\Forever\Alliance\54_60_Dungeon_Dire_Maul_West.lua
+WoWPro\Forever\Alliance\54_60_Dungeon_Lower_Blackrock_Spire.lua
+WoWPro\Forever\Alliance\54_60_Dungeon_Scholomance.lua
+WoWPro\Forever\Alliance\55_60_Alliance.lua
+WoWPro\Forever\Alliance\56_60_Dungeon_Stratholme.lua
+WoWPro\Forever\Alliance\56_60_Dungeon_Upper_Blackrock_Spire.lua
+WoWPro\Forever\Alliance\Elwynn_6-12.lua
+WoWPro\Forever\Alliance\INTRO_Human_1-6.lua
+WoWPro\Forever\Horde\01_12_Hendo_Durotar.lua
+WoWPro\Forever\Horde\01_12_Hendo_Mulgore.lua
+WoWPro\Forever\Horde\01_12_Hendo_Tirisfal_Glades.lua
+WoWPro\Forever\Horde\01_12_Zephras_Isle_H.lua
+WoWPro\Forever\Horde\12_15_Hendo_Silverpine_Forest.lua
+WoWPro\Forever\Horde\15_18_Hendo_The_Barrens1.lua
+WoWPro\Forever\Horde\15_20_Dungeon_Ruins_of_Lordaeron.lua
+WoWPro\Forever\Horde\15_21_Hendo_The_Barrens.lua
+WoWPro\Forever\Horde\15_24_Dungeon_Wailing_Caverns.lua
+WoWPro\Forever\Horde\18_21_Hendo_The_Barrens2.lua
+WoWPro\Forever\Horde\18_28_Dungeon_Shadowfang_Keep.lua
+WoWPro\Forever\Horde\21_30_Dungeon_Blackfathom.lua
+WoWPro\Forever\Horde\21_30_Hendo_HordeChapter1.lua
+WoWPro\Forever\Horde\25_34_Dungeon_Razorfen_Kraul.lua
+WoWPro\Forever\Horde\25_38_Dungeon_Gnomeregan.lua
+WoWPro\Forever\Horde\26_45_Dungeon_Scarlet_Monastery.lua
+WoWPro\Forever\Horde\31_40_Hendo_HordeChapter2.lua
+WoWPro\Forever\Horde\35_44_Dungeon_Razorfen Downs.lua
+WoWPro\Forever\Horde\37_47_Dungeon_Uldaman.lua
+WoWPro\Forever\Horde\40_50_Dungeon_Zul'Farrak.lua
+WoWPro\Forever\Horde\40_51_Jame_Horde.lua
+WoWPro\Forever\Horde\41_50_Hendo_HordeChapter3.lua
+WoWPro\Forever\Horde\41_54_Dungeon_Maraudon.lua
+WoWPro\Forever\Horde\46_54_Dungeon_Sunken Temple.lua
+WoWPro\Forever\Horde\50_60_Dungeon_Blackrock Depths.lua
+WoWPro\Forever\Horde\51_53_UnGoro_Crater.lua
+WoWPro\Forever\Horde\52_60_Dungeon_Dire_Maul_East.lua
+WoWPro\Forever\Horde\53_54_Burning_Steppes.lua
+WoWPro\Forever\Horde\54_55_Winterspring.lua
+WoWPro\Forever\Horde\54_60_Dungeon_Dire_Maul_North.lua
+WoWPro\Forever\Horde\54_60_Dungeon_Dire_Maul_West.lua
+WoWPro\Forever\Horde\54_60_Dungeon_Lower_Blackrock_Spire.lua
+WoWPro\Forever\Horde\54_60_Dungeon_Scholomance.lua
+WoWPro\Forever\Horde\56_60_Dungeon_Stratholme.lua
+WoWPro\Forever\Horde\56_60_Dungeon_Upper_Blackrock_Spire.lua
+WoWPro\Forever\Horde\9_19_Dungeon_Ragefire_Chasm.lua
+Modules.lua
